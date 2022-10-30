@@ -1,5 +1,4 @@
 body {
-    margin: 80px auto;
     background: linear-gradient(109.6deg, rgb(255, 207, 84) 11.2%, rgb(255, 158, 27) 91.1%);
 }
 
@@ -14,22 +13,26 @@ h2 {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
-p, ol{
+p, ol, a{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.email-link{
+    display: block;
+    text-align: center;
+}
+
 
 .photolink, .contactlink{
-    display: block;
+    display: grid;
     text-align: center;
     text-decoration: none;
     color: white;
     background-color: black;
-    margin: 20px;
+    margin: 10px;
     border-radius: 4px;
     padding: 10px;
-    text-decoration: none;
     
   
 }
@@ -40,9 +43,8 @@ p, ol{
     text-decoration: none;
     color: white;
     background-color: black;
-    margin: 20px;
+    margin: 30px;
     border-radius: 4px;
     padding: 10px;
-    text-decoration: none;
 }
 
